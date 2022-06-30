@@ -7,7 +7,7 @@ import openpyxl
 excel = openpyxl.Workbook()
 sheet = excel.active
 sheet.title = "IMDB Top 250"
-print(excel.sheetnames)
+
 
 sheet.append(["Movie Rank", "Movie Name", "Year of Release", "IMDB Rating"])
 
